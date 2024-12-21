@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
         Triangle rectangle = new Triangle(10, 20);
         int area = rectangle.getArea();
-        System.out.println("Area is " + area);
+        System.out.println("Area is" + area);
 //        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
 //        // to see how IntelliJ IDEA suggests fixing it.
 //        System.out.printf("Hello and welcome!");

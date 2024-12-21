@@ -1,12 +1,18 @@
+import figures.Rectangle;
 import figures.Triangle;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
-    public static void main(String[] args) {
+    public void main(String[] args) {
         Triangle rectangle = new Triangle(10, 20);
         int area = rectangle.getArea();
         System.out.println("Area is" + area);
+
+        Rectangle r2 = new Rectangle(10, 20);
+        int area = r2.getArea();
+        System.out.println("Area is" + area);
+
 //        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
 //        // to see how IntelliJ IDEA suggests fixing it.
 //        System.out.printf("Hello and welcome!");

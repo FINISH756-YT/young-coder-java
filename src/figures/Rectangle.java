@@ -13,4 +13,11 @@ public class Rectangle {
     public int getArea(){
         return a * b;
     }
+
+    public boolean isSquare(){
+        return a == b;
+    }
+    public int nnEnter(){
+        return  a - b;
+    }
 }
